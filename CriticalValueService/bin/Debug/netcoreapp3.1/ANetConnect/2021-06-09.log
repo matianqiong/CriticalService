@@ -1,0 +1,23 @@
+九阵科技-超级用户 2021-06-09 19:48:35:259
+消息推送发生异常:There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at ANetConnect.ARecordset.GetValue(String vsColName)
+   at CriticalValueService.PushCriticalMessage.<>c__DisplayClass1_0.<DoPushPlatformMsg>b__0(Object <p0>, ElapsedEventArgs <p1>) in D:\九阵\云疗版代码\MainAHIP\Development4\医学检验系统(LIS)\CriticalValueService\PushCriticalMessage.cs:line 90
+
+九阵科技-超级用户 2021-06-09 19:54:44:762
+消息推送发生异常:ORA-00904: "A"."隶属机构I": 标识符无效
+
+   at ANetConnect.WebServerNet.ExecSQL(String vsSQLText, String key, String lic, String lickey, TSQLPara tPara)
+   at ANetConnect.WebServerNet.ExecSQL(String vsSQLText, TSQLPara tPara)
+   at ANetConnect.DB.ExecSQL(String vsSQLText, TSQLPara tPara)
+   at CriticalValueService.PushCriticalMessage.<>c__DisplayClass1_0.<DoPushPlatformMsg>b__0(Object <p0>, ElapsedEventArgs <p1>) in D:\九阵\云疗版代码\MainAHIP\Development4\医学检验系统(LIS)\CriticalValueService\PushCriticalMessage.cs:line 116
+
+九阵科技-超级用户 2021-06-09 20:00:32:148
+消息推送发生异常:ORA-00904: "A"."隶属机构I": 标识符无效
+
+   at ANetConnect.WebServerNet.ExecSQL(String vsSQLText, String key, String lic, String lickey, TSQLPara tPara)
+   at ANetConnect.WebServerNet.ExecSQL(String vsSQLText, TSQLPara tPara)
+   at ANetConnect.DB.ExecSQL(String vsSQLText, TSQLPara tPara)
+   at CriticalValueService.PushCriticalMessage.<>c__DisplayClass1_0.<DoPushPlatformMsg>b__0(Object <p0>, ElapsedEventArgs <p1>) in D:\九阵\云疗版代码\MainAHIP\Development4\医学检验系统(LIS)\CriticalValueService\PushCriticalMessage.cs:line 116
+

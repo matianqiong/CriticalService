@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\九阵\\智健云\\AHIP_AssistantExamination\\MainAHIP\\MainAHIP\\Development4\\医学检验系统(LIS)\\CriticalValueService\\CriticalValueService.csproj": {}
+  },
+  "projects": {
+    "D:\\九阵\\智健云\\AHIP_AssistantExamination\\MainAHIP\\MainAHIP\\Development4\\医学检验系统(LIS)\\CriticalValueService\\CriticalValueService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\九阵\\智健云\\AHIP_AssistantExamination\\MainAHIP\\MainAHIP\\Development4\\医学检验系统(LIS)\\CriticalValueService\\CriticalValueService.csproj",
+        "projectName": "CriticalValueService",
+        "projectPath": "D:\\九阵\\智健云\\AHIP_AssistantExamination\\MainAHIP\\MainAHIP\\Development4\\医学检验系统(LIS)\\CriticalValueService\\CriticalValueService.csproj",
+        "packagesPath": "C:\\Users\\xiaoma\\.nuget\\packages\\",
+        "outputPath": "D:\\九阵\\智健云\\AHIP_AssistantExamination\\MainAHIP\\MainAHIP\\Development4\\医学检验系统(LIS)\\CriticalValueService\\obj\\publish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xiaoma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "System.ServiceModel.Primitives": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

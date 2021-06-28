@@ -1,0 +1,25 @@
+九阵科技-超级用户 2021-06-16 16:31:12:510
+调用提交危急值数据接口：{"PatiendId":9169,"Name":"门诊转住院","Age":28,"AgeUnit":"岁","Sex":"女","PatientType":"门诊","HealthSerial":14592,"IDCard":"","ApplyDepId":187,"ApplyDoctorId":1,"IsCritical":1,"IsEmergency":0,"SampleType":null,"AuditTime":"2021-06-16 11:24:34","MenstrualCycle":null,"DingSituation":null,"MainNurse":0,"MainDoctor":0,"DeptDiretor":0,"MedicalDeptment":0,"BusinessClass":2,"CriticalValueInfo":"危急","DiagonsisInfo":null,"ApplyId":"21761","GroupIds":"7859","OrgId":4,"Auditor":1,"ReportPdt":187}
+
+九阵科技-超级用户 2021-06-16 16:36:25:318
+调用提交危急值数据接口：{"PatiendId":9180,"Name":"赵德溪","Age":41,"AgeUnit":"岁","Sex":"男","PatientType":"门诊","HealthSerial":5397,"IDCard":"","ApplyDepId":187,"ApplyDoctorId":1,"IsCritical":1,"IsEmergency":0,"SampleType":null,"AuditTime":"2021-06-16 16:36:23","MenstrualCycle":null,"DingSituation":null,"MainNurse":0,"MainDoctor":0,"DeptDiretor":0,"MedicalDeptment":0,"BusinessClass":2,"CriticalValueInfo":"危急","DiagonsisInfo":null,"ApplyId":"21763","GroupIds":"7859","OrgId":4,"Auditor":1,"ReportPdt":187}
+
+九阵科技-超级用户 2021-06-16 16:39:37:873
+消息推送发生异常:ORA-00936: 缺失表达式
+
+   at ANetConnect.WebServerNet.ExecSingle(String vsSQLText, String key, String lic, String lickey, TSQLPara tPara)
+   at ANetConnect.WebServerNet.ExecSingle(String vsSQLText, TSQLPara tPara)
+   at ANetConnect.DB.ExecSingle(String vsSQLText, TSQLPara tPara)
+   at CriticalValueService.PushCriticalMessage.PushPlatformMsg(String strContent, CriticalMainEntry entry, String StrAcceptObj, Int32 MainId, String msgType) in D:\九阵\云疗版代码\MainAHIP\Development4\医学检验系统(LIS)\CriticalValueService\PushCriticalMessage.cs:line 443
+
+九阵科技-超级用户 2021-06-16 16:41:43:378
+消息推送发生异常:ORA-00936: 缺失表达式
+
+   at ANetConnect.WebServerNet.ExecSingle(String vsSQLText, String key, String lic, String lickey, TSQLPara tPara)
+   at ANetConnect.WebServerNet.ExecSingle(String vsSQLText, TSQLPara tPara)
+   at ANetConnect.DB.ExecSingle(String vsSQLText, TSQLPara tPara)
+   at CriticalValueService.PushCriticalMessage.PushPlatformMsg(String strContent, CriticalMainEntry entry, String StrAcceptObj, Int32 MainId, String msgType) in D:\九阵\云疗版代码\MainAHIP\Development4\医学检验系统(LIS)\CriticalValueService\PushCriticalMessage.cs:line 443
+
+九阵科技-超级用户 2021-06-16 16:52:56:846
+调用提交危急值数据接口：{"PatiendId":9180,"Name":"赵德溪","Age":41,"AgeUnit":"岁","Sex":"男","PatientType":"门诊","HealthSerial":5397,"IDCard":"","ApplyDepId":187,"ApplyDoctorId":1,"IsCritical":1,"IsEmergency":0,"SampleType":null,"AuditTime":"2021-06-16 16:52:54","MenstrualCycle":null,"DingSituation":null,"MainNurse":0,"MainDoctor":0,"DeptDiretor":0,"MedicalDeptment":0,"BusinessClass":2,"CriticalValueInfo":"危急","DiagonsisInfo":null,"ApplyId":"21763","GroupIds":"7859","OrgId":4,"Auditor":1,"ReportPdt":187}
+

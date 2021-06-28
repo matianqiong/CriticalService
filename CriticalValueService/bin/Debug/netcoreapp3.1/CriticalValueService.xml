@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CriticalValueService</name>
+    </assembly>
+    <members>
+        <member name="M:CriticalValueService.Controllers.CriticalMainController.CommitCriticalValue(CriticalValueService.Models.CriticalMainEntry)">
+            <summary>
+            提交危急值信息
+            </summary>
+            <param name="entry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CriticalValueService.Controllers.CriticalMainController.AddTelNotifyRecored(CriticalValueService.Models.TelRecordEntry)">
+            <summary>
+            添加电话通知记录
+            </summary>
+            <param name="entry"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CriticalValueService.Controllers.CriticalMainController.StartMedicalRecordTask(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            开启病程记录超时任务
+            </summary>
+            <param name="businessClass">业务类别</param>
+            <param name="mainId">主表id</param>
+            <param name="dealTime">处置时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:CriticalValueService.Controllers.CriticalMainController.CancleCriticalInfo(System.Int32,System.Int32)">
+            <summary>
+            取消危急值
+            </summary>
+            <param name="PatientId">患者序号i</param>
+            <param name="businessClass">业务类别:1,'检验',2,'超声',3,'放射',4,'心电',5,'病理',6,'其他'</param>
+            <returns></returns>
+        </member>
+        <member name="M:CriticalValueService.Controllers.OAuthController.GetAccessToken(System.String,System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.PatiendId">
+            <summary>
+            患者序号I,病人唯一标识
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.AgeUnit">
+            <summary>
+            年龄单位
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.PatientType">
+            <summary>
+            病人类型
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.HealthSerial">
+            <summary>
+            健康序号I
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.IDCard">
+            <summary>
+            身份证号
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.ApplyDepId">
+            <summary>
+            申请科室I
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.ApplyDoctorId">
+            <summary>
+            申请医生R
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.IsCritical">
+            <summary>
+            危急否B，0：否，1：是 
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.IsEmergency">
+            <summary>
+            急诊否B，0：否，1：是 
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.SampleType">
+            <summary>
+            标本类型
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.AuditTime">
+            <summary>
+            报告时间
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.MenstrualCycle">
+            <summary>
+            生理周期
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.DingSituation">
+            <summary>
+            就餐情况
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.MainNurse">
+            <summary>
+            主任护士R
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.MainDoctor">
+            <summary>
+            主任医生R
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.DeptDiretor">
+            <summary>
+            科室主任R
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.MedicalDeptment">
+            <summary>
+            医务科序号I
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.BusinessClass">
+            <summary>
+            业务类别N：:1,'检验',2,'超声',3,'放射',4,'心电',5,'病理',6,'其他'
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.CriticalValueInfo">
+            <summary>
+            危急值
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.DiagonsisInfo">
+            <summary>
+            诊断信息
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.ApplyId">
+            <summary>
+            申请序号i
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.GroupIds">
+            <summary>
+            组合序号
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.OrgId">
+            <summary>
+            隶属机构i
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.Auditor">
+            <summary>
+            报告审核人R
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.CriticalMainEntry.ReportPdt">
+            <summary>
+            危急值上报科室i
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.HttpResult`1.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.HttpResult`1.Msg">
+            <summary>
+            状态信息
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.HttpResult`1.ResultData">
+            <summary>
+            数据实体
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.MainId">
+            <summary>
+            主表序号I
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.Notifier">
+            <summary>
+            通知人
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.NotifyTime">
+            <summary>
+            通知时间
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.Accepter">
+            <summary>
+            接收人
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.AcceptTime">
+            <summary>
+            接收时间
+            </summary>
+        </member>
+        <member name="P:CriticalValueService.Models.TelRecordEntry.AcceptTel">
+            <summary>
+            接收电话
+            </summary>
+        </member>
+        <member name="M:CriticalValueService.PushCriticalMessage.DoPushPlatformMsg(System.String,CriticalValueService.Models.CriticalMainEntry,System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            平台推送
+            </summary>
+            <param name="strContent"></param>
+            <param name="entry"></param>
+            <param name="StrAcceptObj"></param>
+            <param name="NurseTimeout"></param>
+            <param name="DoctorTimeout"></param>
+            <param name="MainDoctorTimeout"></param>
+        </member>
+        <member name="M:CriticalValueService.PushCriticalMessage.WriteMedicalRecord(System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            书写病程记录判断
+            </summary>
+            <param name="entry"></param>
+            <param name="mainId"></param>
+            <param name="dealTime"></param>
+        </member>
+        <member name="M:CriticalValueService.PushCriticalMessage.PushMainDoctorAndMedicalDpt(CriticalValueService.Models.CriticalMainEntry,System.Int32,System.DateTime,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.Boolean@,System.Boolean@,System.Timers.Timer)">
+            <summary>
+            /推送给主任医生和医务科
+            </summary>
+            <param name="entry"></param>
+            <param name="MainId"></param>
+            <param name="confirmTime"></param>
+            <param name="doctotTimeout"></param>
+            <param name="mainDoctotTimeout"></param>
+            <param name="timeoutAccept"></param>
+            <param name="timeoutPush"></param>
+            <param name="msgType"></param>
+            <param name="ms内容"></param>
+            <param name="ispushMainDoctor"></param>
+            <param name="isDptPush"></param>
+            <param name="timer"></param>
+        </member>
+        <member name="M:CriticalValueService.PushCriticalMessage.PushPlatformMsg(System.String,CriticalValueService.Models.CriticalMainEntry,System.String,System.Int32,System.String)">
+            <summary>
+            推送平台消息
+            </summary>
+            <param name="strContent"></param>
+            <param name="entry"></param>
+            <param name="StrAcceptObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CriticalValueService.PushCriticalMessage.Do短信推送(CriticalValueService.Models.CriticalMainEntry,System.String,System.String,System.Int32)">
+            <summary>
+            短信推送
+            </summary>
+            <param name="entry"></param>
+            <param name="ms内容sql"></param>
+            <param name="StrAcceptObj"></param>
+            <param name="MianId"></param>
+        </member>
+    </members>
+</doc>

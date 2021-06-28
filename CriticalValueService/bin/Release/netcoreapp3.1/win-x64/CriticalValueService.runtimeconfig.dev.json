@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\xiaoma\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\xiaoma\\.nuget\\packages"
+    ]
+  }
+}
